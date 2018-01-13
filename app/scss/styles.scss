@@ -1,0 +1,22 @@
+// styles.scss
+
+@import "./bower_components/susy/sass/susy";
+
+@import "./bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+@import "reset";
+@import "variables";
+@import "mixins";
+
+.testing {
+  width: percentage(5/7);
+  background-color: blue;
+}
+
+body {
+  background: blue;
+}
+
+div {
+  transition: width 2s, height 4s;
+}
